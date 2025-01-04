@@ -39,7 +39,7 @@ export default function About() {
             </Link>
             <a
               className="about-nav-link"
-              href="https://lime-frederique-74.tiiny.site"
+              href="https://pdfhost.io/v/3klOdtKhy_jacob_stewart_resume"
               target="_blank"
               rel="noreferrer"
             >
