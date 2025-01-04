@@ -1,0 +1,129 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700&display=swap');
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+:root {
+  --home-bg-color: #e5eaed;
+  --btn-color: rgba(141, 142, 143, 0.21);
+  --btn-hover-color: rgba(141, 142, 143, 0.5);
+
+
+  --head-font: 'Bebas Neue', sans-serif;
+  --sub-font: 'Roboto Slab', serif;
+}
+
+
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+  font-family: var(--sub-font);
+  background-color: var(--home-bg-color);
+
+}
+
+
+
+/* MAIN = APP BODY */
+.main {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 2s;
+  min-height: 100vh;
+}
+
+
+/* NAVIGATION */
+.navigation  {
+  font-family: var(--head-font);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  height: 15vh;
+
+  width: 90%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+.nav-link {
+  font-size: 2.25rem;
+  text-decoration: none;
+  color: #000;
+  margin-left: 1.5rem;
+}
+
+/* nav link font size for varying vh */
+@media only screen and (max-height: 500px){.nav-link {font-size: 2rem;}}
+@media only screen and (max-height: 400px){.nav-link {font-size: 1.75rem;}}
+
+
+
+/* switching to column (portrait display) */
+@media only screen and (max-width: 650px) {
+  .navigation {
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    font-size: 1.75rem;
+    margin-left: 0;
+  }
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 450px) {
+  .main {
+    min-height: -webkit-fill-available;
+  }
+
+  .navigation {
+    height: 13vh;
+  }
+}
+
+/* xtra small */
+@media only screen and (max-width: 340px) {
+  .main {
+    min-height: -webkit-fill-available;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+}
+
+
+
+
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Bebas Neue', cursive; --> HEAD TEXT */

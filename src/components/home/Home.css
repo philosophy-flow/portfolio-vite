@@ -1,0 +1,68 @@
+.Home {
+  position: relative;
+
+  width: 90%;
+  max-width: 1200px;
+  height: 80vh;
+  margin: 0 auto;
+  margin-bottom: 1vh;
+
+  /* background-image: url("../../assets/subway.jpg");
+  background-position: center;
+  background-size: cover; */
+
+  /* background asset provided by vecteezy */
+  background-image: url("../../assets/nyc.svg");
+  background-size: cover;
+}
+
+.home-content-container {
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+
+  width: 45%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--home-bg-color);
+}
+
+.home-text {
+  font-family: var(--head-font);
+  font-size: 7vh;
+}
+
+.gradient-text {
+  background: linear-gradient(0deg, #9d729d, #7a4c7a, #4f3151);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: inherit;
+}
+
+/* changing main home text font-size on multiple view widths */
+@media only screen and (max-width: 650px) {
+  .home-text {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .home-text {
+    font-size: 2rem;
+  }
+
+  /* making space for mobile browser nav */
+  .Home {
+    height: 74vh;
+  }
+}
+
+/* Fixed font-size on small vh displays */
+@media only screen and (max-height: 450px) {
+  .home-text {
+    font-size: 1.75rem;
+  }
+}
