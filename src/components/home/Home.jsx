@@ -14,8 +14,7 @@ export default function Home() {
       >
         <div className="home-content-container">
           <h1 className="home-text">
-            Hi. I'm <span className="gradient-text">Jacob</span>, an NYC based
-            software developer.
+            Hi. I'm Jacob, an NYC based software developer.
           </h1>
         </div>
       </motion.section>

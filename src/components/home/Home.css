@@ -36,13 +36,6 @@
   font-size: 7vh;
 }
 
-.gradient-text {
-  background: linear-gradient(0deg, #9d729d, #7a4c7a, #4f3151);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: inherit;
-}
-
 /* changing main home text font-size on multiple view widths */
 @media only screen and (max-width: 650px) {
   .home-text {

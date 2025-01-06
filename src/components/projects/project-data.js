@@ -11,7 +11,6 @@ import podLandingPage from "../../assets/project-images/pod-landing-page-img.png
 import typemasterLandingPage from "../../assets/project-images/typemaster-img.png";
 import fakeNewsFlush from "../../assets/project-images/fake-news-flush-img.png";
 import aceHotelCareers from "../../assets/project-images/ace-hotel-careers-img.png";
-import maisonDeLaLuzOffers from "../../assets/project-images/maison-de-la-luz-offers-img.png";
 
 export const projects = [
   {
@@ -26,7 +25,7 @@ export const projects = [
     name: "Ace Hotel Careers Page | Property Cards",
     img: aceHotelCareers,
     description:
-      "A module developed for the Ace Hotel website's career page to enhance color and interactivity. The cards are fully responsive and animate on hover. When a user clicks a property card they are routed to that property's career page. CMS users are also able to conveniently update card images and links. This module is live on production and is visited by many visitors every day.",
+      "A module developed for the Ace Hotel website's career page to enhance color and interactivity. The cards are fully responsive and animate on hover. When a user clicks a property card they are routed to that property's career page. CMS users are also able to conveniently update card images and links. This module is live on production and is visited many times every day.",
     demoLink: "https://acehotel.com/careers",
     repoLink: "",
   },
@@ -37,14 +36,6 @@ export const projects = [
       "A mobile first, fully responsive React application that provides information pertaining to the planets of the Solar System. Each planet page features key information at the bottom and three separate tabs that include additional information/images.",
     demoLink: "https://planetary-factz.netlify.app/Earth",
     repoLink: "https://github.com/philosophy-flow/planets-fact-app",
-  },
-  {
-    name: "Maison de la Luz | Offers Cards",
-    img: maisonDeLaLuzOffers,
-    description:
-      "A fully responsive offers page on this hotel's website features cards that have sleek drop-down menus. This was implemented so that more information could be incorporated onto the page in a compact manner. Although this hotel is no longer operational, many users utilized this page before it closed.",
-    demoLink: "",
-    repoLink: "",
   },
   {
     name: "Job Listing Filter",
