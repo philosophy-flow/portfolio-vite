@@ -39,7 +39,7 @@ export default function About() {
             </Link>
             <a
               className="about-nav-link"
-              href="https://pdfhost.io/v/AW5hOWTkG_jacob_stewart_resume"
+              href="https://pdfhost.io/v/NiurjlXA8_Jacob_Stewart"
               target="_blank"
               rel="noreferrer"
             >
