@@ -11,8 +11,16 @@ import podLandingPage from "../../assets/project-images/pod-landing-page-img.png
 import typemasterLandingPage from "../../assets/project-images/typemaster-img.png";
 import fakeNewsFlush from "../../assets/project-images/fake-news-flush-img.png";
 import aceHotelCareers from "../../assets/project-images/ace-hotel-careers-img.png";
+import aceHotelNav from "../../assets/project-images/navigation-refresh-img.png";
 
 export const projects = [
+  {
+    name: "Ace Hotel | Main Navigation Refresh",
+    img: aceHotelNav,
+    description:
+      "This project revolved around modernizing the website's navigation experience to be more reflective of the brand today. My role on this project included the development of custom select elements with dynamic text input support and a custom drop-down stepper using JavaScript classes. The components feature keyboard and screen reader support to ensure robust accessibility.",
+    demoLink: "https://acehotel.com",
+  },
   {
     name: "Fake News Flush",
     img: fakeNewsFlush,
@@ -22,7 +30,7 @@ export const projects = [
     repoLink: "https://github.com/philosophy-flow/capstone-backend",
   },
   {
-    name: "Ace Hotel Careers Page | Property Cards",
+    name: "Ace Hotel | Careers Page Property Cards",
     img: aceHotelCareers,
     description:
       "A module developed for the Ace Hotel website's career page to enhance color and interactivity. The cards are fully responsive and animate on hover. When a user clicks a property card they are routed to that property's career page. CMS users are also able to conveniently update card images and links. This module is live on production and is visited many times every day.",
