@@ -16,19 +16,18 @@ export default function About() {
         <div className="about-text-container">
           <h2 className="about-header">About Me</h2>
           <p className="about-body">
-            As an experienced web developer and leader, I thrive on tackling
-            complex challenges and continuously expanding my knowledge. With a
-            proven track record of collaborating with globally distributed
-            teams, I excel at utilizing cutting-edge technologies to deliver
+            As an experienced software engineer and leader, I thrive on tackling
+            complex challenges and constantly expanding my knowledge. With a
+            proven track record of effective collaboration and exemplary self-teaching 
+            capabilities, I excel at utilizing cutting-edge technologies to deliver 
             innovative solutions.
           </p>
           <p className="about-body">
-            My expertise is rooted in front-end development, where I have
-            mastered the core technologies that power the web. My primary
-            experience lies in working with large-scale React/Redux codebases
-            and enhancing complex WordPress multi-site themes, but I'm also
-            passionate about full-stack work and enjoy exploring new
-            technologies as the project demands.
+            My expertise is rooted in front-end and full-stack application development, 
+            where I have mastered the core technologies that power the web. My primary
+            professional experience lies in working with large-scale React/Redux 
+            codebases and enhancing complex WordPress multi-site networks, but I'm also
+            passionate about exploring new technologies as project demands evolve.
           </p>
           <div className="about-button-container">
             <Link className="about-nav-link" to="/projects">
