@@ -41,7 +41,7 @@ export default function App() {
           className="nav-link"
           to="/"
           style={
-            activePath === "home" ? { color: "#9B6A9B", cursor: "default" } : {}
+            activePath === "home" ? { color: "#B48CB4", cursor: "default" } : {}
           }
         >
           Home
@@ -52,7 +52,7 @@ export default function App() {
           to="/about"
           style={
             activePath === "about"
-              ? { color: "#e2abb1", cursor: "default" }
+              ? { color: "#539cbe", cursor: "default" }
               : {}
           }
         >
@@ -64,7 +64,7 @@ export default function App() {
           to="/projects"
           style={
             activePath === "projects"
-              ? { color: "#539cbe", cursor: "default" }
+              ? { color: "#F4AE7C", cursor: "default" }
               : {}
           }
         >
