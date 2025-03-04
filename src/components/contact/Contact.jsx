@@ -23,6 +23,7 @@ export default function Contact() {
             href="https://github.com/philosophy-flow"
             target="_blank"
             rel="noreferrer"
+            aria-label="GitHub"
           >
             <i className="fab fa-github-alt fa-2x contact-icon"></i>
           </a>
@@ -30,6 +31,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/jacob-stewart7/"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn"
           >
             <i className="fab fa-linkedin-in fa-2x contact-icon"></i>
           </a>

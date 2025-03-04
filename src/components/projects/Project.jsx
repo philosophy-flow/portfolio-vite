@@ -36,7 +36,7 @@ export default function Project({ project }) {
       className="project"
     >
       <div className="project-img-container">
-        <img className="project-img" src={project.img} alt="project-pic" />
+        <img className="project-img" src={project.img} alt="" />
       </div>
       <div className="project-content-container">
         <h2 className="project-name">{project.name}</h2>
