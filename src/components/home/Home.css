@@ -22,7 +22,7 @@
   left: -1px;
 
   width: 45%;
-  height: 50%;
+  height: 45%;
 
   display: flex;
   justify-content: center;
@@ -32,18 +32,62 @@
 }
 
 .home-text {
+  padding-right: .75rem;
+}
+
+.Typewriter {
+  display: inline;
+}
+
+.home-text, .Typewriter__wrapper, .Typewriter__cursor {
   font-family: var(--head-font);
-  font-size: 7vh;
+  font-size: 6.75vh;
+  transition: .25s;
+}
+
+.Typewriter__cursor {
+  color: #D35400
+}
+
+.Typewriter__wrapper {
+  position: relative;
+  text-decoration: none;
+}
+
+.Typewriter__wrapper::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 90%; 
+  height: 6px;
+  background-color: transparent;
+  transform: translateY(0);
+  transition: transform 400ms, background-color 400ms;
+  clip-path: inset(0 0 0 0 content-box); 
+}
+
+.Typewriter__wrapper.underlined::after {
+  background-color: #D35400;
 }
 
 /* changing main home text font-size on multiple view widths */
-@media only screen and (max-width: 650px) {
-  .home-text {
-    font-size: 2.5rem;
+@media only screen and (max-width: 750px) {
+  .home-text, .Typewriter__wrapper, .Typewriter__cursor {
+    font-size: 3rem;
+  }
+  .Typewriter__wrapper::after {
+    bottom: 0px;
   }
 }
+@media only screen and (max-width: 650px) {
+  .home-text, .Typewriter__wrapper, .Typewriter__cursor {
+    font-size: 2.5rem;
+  }
+
+}
 @media only screen and (max-width: 450px) {
-  .home-text {
+  .home-text, .Typewriter__wrapper, .Typewriter__cursor {
     font-size: 2rem;
   }
 
@@ -54,8 +98,8 @@
 }
 
 /* Fixed font-size on small vh displays */
-@media only screen and (max-height: 450px) {
-  .home-text {
+@media only screen and (max-height: 480px) {
+  .home-text, .Typewriter__wrapper, .Typewriter__cursor {
     font-size: 1.75rem;
   }
 }
