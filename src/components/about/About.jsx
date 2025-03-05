@@ -14,13 +14,12 @@ export default function About() {
         transition={{ duration: 0.5 }}
       >
         <div className="about-text-container">
-          <h2 className="about-header">About Me</h2>
+          <h2 className="about-header">A Bit About Me</h2>
           <p className="about-body">
-            As an experienced software engineer and leader, I thrive on tackling
-            complex challenges and constantly expanding my knowledge. With a
-            proven track record of effective collaboration and exemplary self-teaching 
-            capabilities, I excel at utilizing cutting-edge technologies to deliver 
-            innovative solutions.
+            As an accomplished software engineer and leader, I thrive on tackling
+            complex challenges, constantly expanding my knowledge, and sharing what I know with others. 
+            With a proven track record of effective collaboration and exemplary self-teaching 
+            capabilities, I excel at working in both team environments and independently.
           </p>
           <p className="about-body">
             My expertise is rooted in front-end and full-stack application development, 

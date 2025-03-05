@@ -10,17 +10,17 @@ import meetLandingPage from "../../assets/project-images/meet-landing-page-img.p
 import podLandingPage from "../../assets/project-images/pod-landing-page-img.png";
 import typemasterLandingPage from "../../assets/project-images/typemaster-img.png";
 import fakeNewsFlush from "../../assets/project-images/fake-news-flush-img.png";
-import aceHotelCareers from "../../assets/project-images/ace-hotel-careers-img.png";
-import aceHotelNav from "../../assets/project-images/navigation-refresh-img.png";
+// import aceHotelCareers from "../../assets/project-images/ace-hotel-careers-img.png";
+// import aceHotelNav from "../../assets/project-images/navigation-refresh-img.png";
 
 export const projects = [
-  {
-    name: "Ace Hotel | Main Navigation Refresh",
-    img: aceHotelNav,
-    description:
-      "This project revolved around modernizing the website's navigation experience to be more reflective of the brand today. My role on this project included the development of custom select elements with dynamic text input support and a custom drop-down stepper using JavaScript classes. The components feature keyboard and screen reader support to ensure robust accessibility.",
-    demoLink: "https://acehotel.com",
-  },
+  // {
+  //   name: "Ace Hotel | Main Navigation Refresh",
+  //   img: aceHotelNav,
+  //   description:
+  //     "This project revolved around modernizing the website's navigation experience to be more reflective of the brand today. My role on this project included the development of custom select elements with dynamic text input support and a custom drop-down stepper using JavaScript classes. The components feature keyboard and screen reader support to ensure robust accessibility.",
+  //   demoLink: "https://acehotel.com",
+  // },
   {
     name: "Fake News Flush",
     img: fakeNewsFlush,
@@ -29,13 +29,21 @@ export const projects = [
     demoLink: "https://fakenewsflush.app",
     repoLink: "https://github.com/philosophy-flow/capstone-backend",
   },
+  // {
+  //   name: "Ace Hotel | Careers Page Property Cards",
+  //   img: aceHotelCareers,
+  //   description:
+  //     "A module developed for the Ace Hotel website's career page to enhance color and interactivity. The cards are fully responsive and animate on hover. When a user clicks a property card they are routed to that property's career page. CMS users are also able to conveniently update card images and links. This module is live on production and is visited many times every day.",
+  //   demoLink: "https://acehotel.com/careers",
+  //   repoLink: "",
+  // },
   {
-    name: "Ace Hotel | Careers Page Property Cards",
-    img: aceHotelCareers,
+    name: "Invoice Application",
+    img: invoiceApp,
     description:
-      "A module developed for the Ace Hotel website's career page to enhance color and interactivity. The cards are fully responsive and animate on hover. When a user clicks a property card they are routed to that property's career page. CMS users are also able to conveniently update card images and links. This module is live on production and is visited many times every day.",
-    demoLink: "https://acehotel.com/careers",
-    repoLink: "",
+      "A mobile first, fully responsive React application that features a complex form built with formik/yup. Additionally, this project integrates the React Datepicker and React Select libraries in order to provide a more robust and customized experience. A user is able to create, modify, and delete invoices that feature many different properties. Tailwind is used for almost all custom CSS, including animations and responsive breakpoints.",
+    demoLink: "https://invoice-application.vercel.app/invoices",
+    repoLink: "https://github.com/philosophy-flow/invoice-application",
   },
   {
     name: "Planetary Facts",
@@ -54,28 +62,20 @@ export const projects = [
     repoLink: "https://github.com/philosophy-flow/react-job-filter",
   },
   {
-    name: "FelineFinder",
-    img: felineFinderImg,
+    name: "Pick a Quiz",
+    img: quizApp,
     description:
-      "A landing page for an application that specializes in finding friends for your cat. The page is responsive and demonstrates the power of Bootstrap, including the grid system and the carousel feature.",
-    demoLink: "https://philosophy-flow.github.io/felinefinder/",
-    repoLink: "https://github.com/philosophy-flow/felinefinder",
+      "A React application that allows the user to select from multiple categories and then take a trivia quiz. After answering all questions the user is able to see their score and view all of the missed questions and correct answers. Animations were done via Framer Motion, and quiz data was retrieved from Open Trivia DB.",
+    demoLink: "https://pickaquiz.netlify.app/",
+    repoLink: "https://github.com/philosophy-flow/pick-a-quiz",
   },
   {
-    name: "Invoice Application",
-    img: invoiceApp,
+    name: "To Do List w/ Theme Selector",
+    img: todoList,
     description:
-      "A mobile first, fully responsive React application that features a complex form built with formik/yup. Additionally, this project integrates the React Datepicker and React Select libraries in order to provide a more robust and customized experience. A user is able to create, modify, and delete invoices that feature many different properties. Tailwind is used for almost all custom CSS, including animations and responsive breakpoints.",
-    demoLink: "https://invoice-application.vercel.app/invoices",
-    repoLink: "https://github.com/philosophy-flow/invoice-application",
-  },
-  {
-    name: '"Meet" Landing Page',
-    img: meetLandingPage,
-    description:
-      "A mobile first, fully responsive landing page for an app named Meet. Two breakpoints were created to strategically compliment the content, and a small amount of JavaScript was used to implement a simple scroll button and download modal. Care was taken to ensure that smooth scrolling and CSS transitions were applied across devices to maximize UX.",
-    demoLink: "https://philosophy-flow.github.io/meet-landing-page/",
-    repoLink: "https://github.com/philosophy-flow/meet-landing-page",
+      "A React to-do list application that features the ability to categorize items based upon whether or not they have been completed; furthermore, items can be deleted individually, and all completed items can be deleted at once. The application also features a light/dark theme selector, and data is persisted via the browser's local storage.",
+    demoLink: "https://react-to-do-application.netlify.app/",
+    repoLink: "https://github.com/philosophy-flow/to-do-app",
   },
   {
     name: "Custom Pricing Component",
@@ -88,6 +88,30 @@ export const projects = [
       "https://github.com/philosophy-flow/interactive-pricing-component",
   },
   {
+    name: "Crowdfunding Product Page",
+    img: crowdfundingProduct,
+    description:
+      "An interactive crowdfunding product sign up page built with vanilla JavaScript. The user is able to select a reward type or simply back the project. After making a selection, a modal appears that then allows the user to specify a donation amount. The total amount raised, the number of backers, the number of reward items, and the progress bar are updated accordingly.",
+    demoLink: "https://philosophy-flow.github.io/crowdfunding-product-page/",
+    repoLink: "https://github.com/philosophy-flow/crowdfunding-product-page",
+  },
+  {
+    name: "FelineFinder",
+    img: felineFinderImg,
+    description:
+      "A landing page for an application that specializes in finding friends for your cat. The page is responsive and demonstrates the power of Bootstrap, including the grid system and the carousel feature.",
+    demoLink: "https://philosophy-flow.github.io/felinefinder/",
+    repoLink: "https://github.com/philosophy-flow/felinefinder",
+  },
+  {
+    name: '"Meet" Landing Page',
+    img: meetLandingPage,
+    description:
+      "A mobile first, fully responsive landing page for an app named Meet. Two breakpoints were created to strategically compliment the content, and a small amount of JavaScript was used to implement a simple scroll button and download modal. Care was taken to ensure that smooth scrolling and CSS transitions were applied across devices to maximize UX.",
+    demoLink: "https://philosophy-flow.github.io/meet-landing-page/",
+    repoLink: "https://github.com/philosophy-flow/meet-landing-page",
+  },
+  {
     name: '"Pod" Landing Page',
     img: podLandingPage,
     description:
@@ -96,35 +120,11 @@ export const projects = [
     repoLink: "https://github.com/philosophy-flow/pod-request-landing-page",
   },
   {
-    name: "To Do List w/ Theme Selector",
-    img: todoList,
-    description:
-      "A React to-do list application that features the ability to categorize items based upon whether or not they have been completed; furthermore, items can be deleted individually, and all completed items can be deleted at once. The application also features a light/dark theme selector, and data is persisted via the browser's local storage.",
-    demoLink: "https://react-to-do-application.netlify.app/",
-    repoLink: "https://github.com/philosophy-flow/to-do-app",
-  },
-  {
     name: "Product Landing Page",
     img: typemasterLandingPage,
     description:
       "A mobile first, fully responsive landing page for a product. Breakpoints were created to strategically compliment the content, and a combination of negative margins and absolute positioning techniques were utilized to position certain elements.",
     demoLink: "https://philosophy-flow.github.io/typemaster-landing-page/",
     repoLink: "https://github.com/philosophy-flow/typemaster-landing-page",
-  },
-  {
-    name: "Pick a Quiz",
-    img: quizApp,
-    description:
-      "A React application that allows the user to select from multiple categories and then take a trivia quiz. After answering all questions the user is able to see their score and view all of the missed questions and correct answers. Animations were done via Framer Motion, and quiz data was retrieved from Open Trivia DB.",
-    demoLink: "https://pickaquiz.netlify.app/",
-    repoLink: "https://github.com/philosophy-flow/pick-a-quiz",
-  },
-  {
-    name: "Crowdfunding Product Page",
-    img: crowdfundingProduct,
-    description:
-      "An interactive crowdfunding product sign up page built with vanilla JavaScript. The user is able to select a reward type or simply back the project. After making a selection, a modal appears that then allows the user to specify a donation amount. The total amount raised, the number of backers, the number of reward items, and the progress bar are updated accordingly.",
-    demoLink: "https://philosophy-flow.github.io/crowdfunding-product-page/",
-    repoLink: "https://github.com/philosophy-flow/crowdfunding-product-page",
-  },
+  }
 ];

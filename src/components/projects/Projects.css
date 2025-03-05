@@ -94,19 +94,20 @@
   /* background-color: rgba(141, 142, 143, 0.21);
   background-color: rgba(83, 156, 190, 0.5); */
   background-color: #F4AE7C;
+  color: #000
 }
 
 .scroll-button i {
-  color: #000;
+  color: inherit
 }
 
 
 /* no hover on mobile */
 @media only screen and (min-width: 500px) {
   .scroll-button:hover {
-    background-color: rgba(141, 142, 143, 0.5);
-    transition: .25s;
-    color: var(--home-bg-color);
+    transition: color .25s ease-out, background-color .25s;
+    background-color: var(--home-bg-color);
+    outline: 2px solid #F4AE7C;
   }
 }
 
