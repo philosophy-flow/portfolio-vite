@@ -102,4 +102,7 @@
   .home-text, .Typewriter__wrapper, .Typewriter__cursor {
     font-size: 1.75rem;
   }
+  .Typewriter__wrapper::after {
+    bottom: 0px;
+  }
 }
