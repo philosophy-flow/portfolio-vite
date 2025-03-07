@@ -1,7 +1,7 @@
 import "./Home.css";
-
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
+import updateFlame from "../../updateFlame";
 
 export default function Home() {
     return (
@@ -19,6 +19,7 @@ export default function Home() {
                         <Typewriter
                             onInit={(typewriter) => {
                                 typewriter
+                                    .pauseFor(100)
                                     .typeString("Jacob,")
                                     .callFunction((typewriter) => {
                                         setTimeout(() => {
@@ -26,6 +27,7 @@ export default function Home() {
                                                 typewriter.elements.wrapper.classList.add(
                                                     "underlined"
                                                 );
+                                            updateFlame("#D35400");
                                         }, 500);
                                     })
                                     .start();
