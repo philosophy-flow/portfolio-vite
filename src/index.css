@@ -1,10 +1,14 @@
-/* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/BebasNeue.woff2') format('truetype');
+  font-weight: normal;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700&display=swap');
-
-
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/fonts/RobotoSlab.woff2') format('truetype');
+  font-weight: normal;
+}
 
 @keyframes fadeIn {
   0% {
