@@ -29,15 +29,18 @@
 
 .contact-icon {
   margin-right: 1rem;
-  color: #2A6E58;
+  fill:#2A6E58;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 
 /* no hover on mobile */
 @media only screen and (min-width: 500px) {
   .contact-icon:hover {
-    color: #63a282;
+    fill: #63a282;
   }
 }
 

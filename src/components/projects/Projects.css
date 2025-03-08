@@ -97,8 +97,9 @@
   color: #000
 }
 
-.scroll-button i {
-  color: inherit
+.scroll-button svg {
+  width: 28px;
+  height: 28px;
 }
 
 
