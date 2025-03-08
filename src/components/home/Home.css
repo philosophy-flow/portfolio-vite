@@ -12,7 +12,7 @@
   background-size: cover; */
 
   /* background asset provided by vecteezy */
-  background-image: url("../../assets/nyc.svg");
+  background-image: url("/nyc.svg");
   background-size: cover;
 }
 
