@@ -22,19 +22,9 @@ export default function About() {
             capabilities, I excel at working in both team environments and independently.
           </p>
           <p className="about-body">
-            My expertise is rooted in front-end and full-stack application development, 
-            where I have mastered the core technologies that power the web. My primary
-            professional experience lies in working with large-scale React/Redux 
-            codebases and enhancing complex WordPress multi-site networks, but I'm also
-            passionate about exploring new technologies as project demands evolve.
+            When I'm not building something at work, I'm usually building something at home. If I'm not doing that, then you might find me grinding Leetcode, enjoying a long walk with my dog, or just trying to avoid screens in the general sense (don't ask me how it's going).
           </p>
           <div className="about-button-container">
-            <Link className="about-nav-link" to="/projects">
-              see my work{" "}
-            </Link>
-            <Link className="about-nav-link" to="/contact">
-              get in touch{" "}
-            </Link>
             <a
               className="about-nav-link"
               href="https://jacob-stewart-resume.tiiny.site"
@@ -43,6 +33,20 @@ export default function About() {
             >
               resume
             </a>
+            <Link className="about-nav-link" to="/projects">
+              see my work{" "}
+            </Link>
+            <a
+              className="about-nav-link"
+              href="https://iili.io/3xfrJvj.jpg"
+              target="_blank"
+              rel="noreferrer"
+            >
+              see my dog{" "}
+            </a>
+            <Link className="about-nav-link" to="/contact">
+              get in touch{" "}
+            </Link>
           </div>
         </div>
         <div className="about-border"></div>
