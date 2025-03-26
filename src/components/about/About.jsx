@@ -8,7 +8,6 @@ import "yet-another-react-lightbox/styles.css";
 import Lightbox from "yet-another-react-lightbox";
 
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -48,20 +47,14 @@ export default function About() {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            resume
+                            see my resume
                         </a>
-                        <Link className="about-nav-link" to="/projects">
-                            see my work{" "}
-                        </Link>
                         <button
                             className="about-nav-link"
                             onClick={() => setLightboxOpen(true)}
                         >
                             see my dog
                         </button>
-                        <Link className="about-nav-link" to="/contact">
-                            get in touch{" "}
-                        </Link>
                     </div>
                 </div>
                 <div className="about-border"></div>
