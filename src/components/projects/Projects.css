@@ -68,12 +68,14 @@
   color: #000;
   margin-right: 1rem;
 
-  background-color: var(--btn-color);
+  background-color: var(--home-bg-color);
   padding: .4rem;
+
+  border: 1px solid #8A5E8A;
 }
 
 .project-link:hover {
-  background-color: var(--btn-hover-color);
+  background-color: #8A5E8A;
   transition: .25s;
   color: var(--home-bg-color);
 }

@@ -47,19 +47,19 @@
   display: inline-block;
   font-size: .9rem;
   text-decoration: none;
-  color: #000;
+  color: black;
 
   font-size: .9rem;
   margin: 0 1rem 1rem 0;
-  background-color: var(--btn-color);
+  background-color: var(--home-bg-color);
   padding: .4rem;
   font-family: var(--sub-font);
-  border: none;
+  border: 1px solid #4A7A97;
   cursor: pointer;
 }
 
 .about-nav-link:hover {
-  background-color: var(--btn-hover-color);
+  background-color: #4A7A97;
   color: var(--home-bg-color);
   transition: .25s;
 }
