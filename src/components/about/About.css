@@ -44,21 +44,18 @@
 
 /* BUTTONS */
 .about-nav-link {
+  display: inline-block;
   font-size: .9rem;
   text-decoration: none;
   color: #000;
 
   font-size: .9rem;
-  margin-right: 1rem;
-  margin-top: .25rem;
-  margin-bottom: .25rem;
+  margin: 0 1rem 1rem 0;
   background-color: var(--btn-color);
   padding: .4rem;
-  border-radius: .3rem;
   font-family: var(--sub-font);
   border: none;
   cursor: pointer;
-
 }
 
 .about-nav-link:hover {
