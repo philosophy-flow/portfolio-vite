@@ -1,14 +1,14 @@
-import felineFinderImg from "../../assets/project-images/feline-finder-img.png";
-import pricingCompImg from "../../assets/project-images/interactive-pricing-component-img.png";
+// import felineFinderImg from "../../assets/project-images/feline-finder-img.png";
+// import pricingCompImg from "../../assets/project-images/interactive-pricing-component-img.png";
 import crowdfundingProduct from "../../assets/project-images/crowdfunding-product-img.png";
 import invoiceApp from "../../assets/project-images/invoice-app-img.png";
 import planetaryFacts from "../../assets/project-images/planetary-facts.png";
 import quizApp from "../../assets/project-images/quiz-app-img.png";
 import todoList from "../../assets/project-images/to-do-app-img.png";
 import jobFilter from "../../assets/project-images/job-filter-img.png";
-import meetLandingPage from "../../assets/project-images/meet-landing-page-img.png";
-import podLandingPage from "../../assets/project-images/pod-landing-page-img.png";
-import typemasterLandingPage from "../../assets/project-images/typemaster-img.png";
+// import meetLandingPage from "../../assets/project-images/meet-landing-page-img.png";
+// import podLandingPage from "../../assets/project-images/pod-landing-page-img.png";
+// import typemasterLandingPage from "../../assets/project-images/typemaster-img.png";
 import fakeNewsFlush from "../../assets/project-images/fake-news-flush-img.png";
 // import aceHotelCareers from "../../assets/project-images/ace-hotel-careers-img.png";
 // import aceHotelNav from "../../assets/project-images/navigation-refresh-img.png";
@@ -77,16 +77,16 @@ export const projects = [
     demoLink: "https://react-to-do-application.netlify.app/",
     repoLink: "https://github.com/philosophy-flow/to-do-app",
   },
-  {
-    name: "Custom Pricing Component",
-    img: pricingCompImg,
-    description:
-      "An interactive pricing component that features a customized range bar and toggle button by utilizing CSS pseudo selectors. Functional programming concepts are used to manage state based on the slider bar value and whether or not a discount is applied.",
-    demoLink:
-      "https://philosophy-flow.github.io/interactive-pricing-component/",
-    repoLink:
-      "https://github.com/philosophy-flow/interactive-pricing-component",
-  },
+  // {
+  //   name: "Custom Pricing Component",
+  //   img: pricingCompImg,
+  //   description:
+  //     "An interactive pricing component that features a customized range bar and toggle button by utilizing CSS pseudo selectors. Functional programming concepts are used to manage state based on the slider bar value and whether or not a discount is applied.",
+  //   demoLink:
+  //     "https://philosophy-flow.github.io/interactive-pricing-component/",
+  //   repoLink:
+  //     "https://github.com/philosophy-flow/interactive-pricing-component",
+  // },
   {
     name: "Crowdfunding Product Page",
     img: crowdfundingProduct,
@@ -94,37 +94,37 @@ export const projects = [
       "An interactive crowdfunding product sign up page built with vanilla JavaScript. The user is able to select a reward type or simply back the project. After making a selection, a modal appears that then allows the user to specify a donation amount. The total amount raised, the number of backers, the number of reward items, and the progress bar are updated accordingly.",
     demoLink: "https://philosophy-flow.github.io/crowdfunding-product-page/",
     repoLink: "https://github.com/philosophy-flow/crowdfunding-product-page",
-  },
-  {
-    name: "FelineFinder",
-    img: felineFinderImg,
-    description:
-      "A landing page for an application that specializes in finding friends for your cat. The page is responsive and demonstrates the power of Bootstrap, including the grid system and the carousel feature.",
-    demoLink: "https://philosophy-flow.github.io/felinefinder/",
-    repoLink: "https://github.com/philosophy-flow/felinefinder",
-  },
-  {
-    name: '"Meet" Landing Page',
-    img: meetLandingPage,
-    description:
-      "A mobile first, fully responsive landing page for an app named Meet. Two breakpoints were created to strategically compliment the content, and a small amount of JavaScript was used to implement a simple scroll button and download modal. Care was taken to ensure that smooth scrolling and CSS transitions were applied across devices to maximize UX.",
-    demoLink: "https://philosophy-flow.github.io/meet-landing-page/",
-    repoLink: "https://github.com/philosophy-flow/meet-landing-page",
-  },
-  {
-    name: '"Pod" Landing Page',
-    img: podLandingPage,
-    description:
-      "A mobile first, fully responsive landing page for an app named Pod. Multiple breakpoints were created to strategically compliment the content, and special attention was paid to tablet displays. A small amount of JavaScript was utilized to create custom email validation for the form.",
-    demoLink: "https://philosophy-flow.github.io/pod-request-landing-page/",
-    repoLink: "https://github.com/philosophy-flow/pod-request-landing-page",
-  },
-  {
-    name: "Product Landing Page",
-    img: typemasterLandingPage,
-    description:
-      "A mobile first, fully responsive landing page for a product. Breakpoints were created to strategically compliment the content, and a combination of negative margins and absolute positioning techniques were utilized to position certain elements.",
-    demoLink: "https://philosophy-flow.github.io/typemaster-landing-page/",
-    repoLink: "https://github.com/philosophy-flow/typemaster-landing-page",
   }
+  // {
+  //   name: "FelineFinder",
+  //   img: felineFinderImg,
+  //   description:
+  //     "A landing page for an application that specializes in finding friends for your cat. The page is responsive and demonstrates the power of Bootstrap, including the grid system and the carousel feature.",
+  //   demoLink: "https://philosophy-flow.github.io/felinefinder/",
+  //   repoLink: "https://github.com/philosophy-flow/felinefinder",
+  // },
+  // {
+  //   name: '"Meet" Landing Page',
+  //   img: meetLandingPage,
+  //   description:
+  //     "A mobile first, fully responsive landing page for an app named Meet. Two breakpoints were created to strategically compliment the content, and a small amount of JavaScript was used to implement a simple scroll button and download modal. Care was taken to ensure that smooth scrolling and CSS transitions were applied across devices to maximize UX.",
+  //   demoLink: "https://philosophy-flow.github.io/meet-landing-page/",
+  //   repoLink: "https://github.com/philosophy-flow/meet-landing-page",
+  // },
+  // {
+  //   name: '"Pod" Landing Page',
+  //   img: podLandingPage,
+  //   description:
+  //     "A mobile first, fully responsive landing page for an app named Pod. Multiple breakpoints were created to strategically compliment the content, and special attention was paid to tablet displays. A small amount of JavaScript was utilized to create custom email validation for the form.",
+  //   demoLink: "https://philosophy-flow.github.io/pod-request-landing-page/",
+  //   repoLink: "https://github.com/philosophy-flow/pod-request-landing-page",
+  // },
+  // {
+  //   name: "Product Landing Page",
+  //   img: typemasterLandingPage,
+  //   description:
+  //     "A mobile first, fully responsive landing page for a product. Breakpoints were created to strategically compliment the content, and a combination of negative margins and absolute positioning techniques were utilized to position certain elements.",
+  //   demoLink: "https://philosophy-flow.github.io/typemaster-landing-page/",
+  //   repoLink: "https://github.com/philosophy-flow/typemaster-landing-page",
+  // }
 ];
