@@ -10,91 +10,93 @@ import Error from "./Error";
 import ScrollToTop from "./ScrollToTop";
 
 export default function App() {
-  const location = useLocation();
-  const [activePath, setActivePath] = useState("");
+    const location = useLocation();
+    const [activePath, setActivePath] = useState("");
 
-  // set active path
-  useEffect(() => {
-    switch (location.pathname) {
-      case "/":
-        setActivePath("home");
-        break;
-      case "/about":
-        setActivePath("about");
-        break;
-      case "/projects":
-        setActivePath("projects");
-        break;
-      case "/contact":
-        setActivePath("contact");
-        break;
-      default:
-        setActivePath("");
-        break;
-    }
-  }, [location.pathname]);
+    // set active path
+    useEffect(() => {
+        switch (location.pathname) {
+            case "/":
+                setActivePath("home");
+                break;
+            case "/about":
+                setActivePath("about");
+                break;
+            case "/projects":
+                setActivePath("projects");
+                break;
+            case "/contact":
+                setActivePath("contact");
+                break;
+            default:
+                setActivePath("");
+                break;
+        }
+    }, [location.pathname]);
 
-  return (
-    <main className="main">
-      <nav className="navigation">
-        <Link
-          className="nav-link"
-          to="/"
-          style={
-            activePath === "home" ? { color: " #D35400", cursor: "default" } : {}
-          }
-        >
-          Home
-        </Link>
+    return (
+        <main className="main">
+            <nav className="navigation">
+                <Link
+                    className="nav-link"
+                    to="/"
+                    style={
+                        activePath === "home"
+                            ? { color: " #D35400", cursor: "default" }
+                            : {}
+                    }
+                >
+                    Home
+                </Link>
 
-        <Link
-          className="nav-link"
-          to="/about"
-          style={
-            activePath === "about"
-              ? { color: "#4A7A97", cursor: "default" }
-              : {}
-          }
-        >
-          About
-        </Link>
+                <Link
+                    className="nav-link"
+                    to="/about"
+                    style={
+                        activePath === "about"
+                            ? { color: "#4A7A97", cursor: "default" }
+                            : {}
+                    }
+                >
+                    About
+                </Link>
 
-        <Link
-          className="nav-link"
-          to="/projects"
-          style={
-            activePath === "projects"
-              ? { color: "#8A5E8A", cursor: "default" }
-              : {}
-          }
-        >
-          Projects
-        </Link>
+                <Link
+                    className="nav-link"
+                    to="/projects"
+                    style={
+                        activePath === "projects"
+                            ? { color: "#8A5E8A", cursor: "default" }
+                            : {}
+                    }
+                >
+                    Projects
+                </Link>
 
-        <Link
-          className="nav-link"
-          to="/contact"
-          style={
-            activePath === "contact"
-              ? { color: "#278069", cursor: "default" }
-              : {}
-          }
-        >
-          Contact
-        </Link>
-      </nav>
+                <Link
+                    className="nav-link"
+                    to="/contact"
+                    style={
+                        activePath === "contact"
+                            ? { color: "#278069", cursor: "default" }
+                            : {}
+                    }
+                >
+                    Contact
+                </Link>
+            </nav>
 
-      <ScrollToTop>
-        <AnimatePresence exitBeforeEnter>
-          <Switch location={location} key={location.pathname}>
-            <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />
-            <Route component={Error} />
-          </Switch>
-        </AnimatePresence>
-      </ScrollToTop>
-    </main>
-  );
+            <ScrollToTop>
+                <AnimatePresence exitBeforeEnter>
+                    <Switch location={location} key={location.pathname}>
+                        <Route path="/" component={Home} exact />
+                        <Route path="/about" component={About} />
+                        <Route path="/projects" component={Projects} />
+                        <Route path="/contact" component={Contact} />
+                        <Route component={Error} />
+                    </Switch>
+                </AnimatePresence>
+            </ScrollToTop>
+        </main>
+    );
 }
