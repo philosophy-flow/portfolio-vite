@@ -10,6 +10,9 @@ import Lightbox from "yet-another-react-lightbox";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
+import GitHubIcon from "../icons/GithubIcon";
+import LinkedInIcon from "../icons/LinkedInIcon";
+
 export default function About() {
     const [lightboxOpen, setLightboxOpen] = useState(false);
 
@@ -55,6 +58,24 @@ export default function About() {
                         >
                             see my dog
                         </button>
+                    </div>
+                    <div className="about-icon-container">
+                        <a
+                            href="https://github.com/philosophy-flow"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="GitHub"
+                        >
+                            <GitHubIcon className="about-icon" />
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/jacob-stewart7/"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="LinkedIn"
+                        >
+                            <LinkedInIcon className="about-icon" />
+                        </a>
                     </div>
                 </div>
                 <div className="about-border"></div>

@@ -72,6 +72,27 @@
   border: 1px solid var(--btn-color);
 }
 
+.about-icon-container {
+  margin-bottom: 1rem;
+}
+
+.about-icon {
+  margin-right: 1rem;
+  fill:#4A7A97;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+
+/* no hover on mobile */
+@media only screen and (min-width: 500px) {
+  .about-icon:hover {
+    fill: #5A8EAD;
+  }
+}
+
 
 /* portrait view */
 @media only screen and (max-width: 650px) {
