@@ -1,42 +1,29 @@
-// import felineFinderImg from "../../assets/project-images/feline-finder-img.png";
-// import pricingCompImg from "../../assets/project-images/interactive-pricing-component-img.png";
 import crowdfundingProduct from "../../assets/project-images/crowdfunding-product-img.png";
 import invoiceApp from "../../assets/project-images/invoice-app-img.png";
 import planetaryFacts from "../../assets/project-images/planetary-facts.png";
 import quizApp from "../../assets/project-images/quiz-app-img.png";
 import todoList from "../../assets/project-images/to-do-app-img.png";
 import jobFilter from "../../assets/project-images/job-filter-img.png";
-// import meetLandingPage from "../../assets/project-images/meet-landing-page-img.png";
-// import podLandingPage from "../../assets/project-images/pod-landing-page-img.png";
-// import typemasterLandingPage from "../../assets/project-images/typemaster-img.png";
 import fakeNewsFlush from "../../assets/project-images/fake-news-flush-img.png";
-// import aceHotelCareers from "../../assets/project-images/ace-hotel-careers-img.png";
-// import aceHotelNav from "../../assets/project-images/navigation-refresh-img.png";
+import habitsior from "../../assets/project-images/habitsior-img.png";
 
 export const projects = [
-    // {
-    //   name: "Ace Hotel | Main Navigation Refresh",
-    //   img: aceHotelNav,
-    //   description:
-    //     "This project revolved around modernizing the website's navigation experience to be more reflective of the brand today. My role on this project included the development of custom select elements with dynamic text input support and a custom drop-down stepper using JavaScript classes. The components feature keyboard and screen reader support to ensure robust accessibility.",
-    //   demoLink: "https://acehotel.com",
-    // },
+    {
+        name: "Habitsior",
+        img: habitsior,
+        description:
+            "Habitsior is a full-stack app for tracking personal habits over time, built to showcase a modern tech stack and thoughtful feature design. The frontend is developed with React/Vite, TypeScript, Tailwind CSS, and Redux Toolkit Query; the backend is powered by FastAPI, SQLModel, and PostgreSQL. Core features include user authentication with email verification and JWT-based sessions, habit management, and daily progress tracking. Links to the live app, API docs, and supporting assets are also available via the README file on either repository.",
+        demoLink: "https://habitsior.app",
+        repoLink: "https://github.com/philosophy-flow/habit-tracker-backend",
+    },
     {
         name: "Fake News Flush",
         img: fakeNewsFlush,
         description:
-            "This full-stack application leverages a custom-trained LSTM neural network to perform binary text classification by labeling news articles as real or fake. A React client interfaces with a FastAPI backend that pre-processes request input and uses a model file to make predictions. The model file is hosted on a Cloudflare R2 bucket, and Cloudflare is also used to mangage the DNS configuration for the associated custom domain.",
+            "At its core, this full-stack app uses a custom-trained LSTM model to sort incoming news articles into “real” or “fake” buckets. A lean React front end offers a simple text field that posts content to a FastAPI endpoint. There, standard NLP preprocessing — tokenization, padding, cleaning — happens before the model weights (stored in a Cloudflare R2 bucket) are summoned for inference. Furthermore,  DNS routing and custom-domain management live in Cloudflare's edge network. The result is an  end-to-end MLOps demo: serverless model storage, automated edge delivery, and real-time AI classification, all wrapped up in a minimalist web interface.",
         demoLink: "https://fakenewsflush.app",
         repoLink: "https://github.com/philosophy-flow/capstone-backend",
     },
-    // {
-    //   name: "Ace Hotel | Careers Page Property Cards",
-    //   img: aceHotelCareers,
-    //   description:
-    //     "A module developed for the Ace Hotel website's career page to enhance color and interactivity. The cards are fully responsive and animate on hover. When a user clicks a property card they are routed to that property's career page. CMS users are also able to conveniently update card images and links. This module is live on production and is visited many times every day.",
-    //   demoLink: "https://acehotel.com/careers",
-    //   repoLink: "",
-    // },
     {
         name: "Invoice Application",
         img: invoiceApp,
@@ -77,16 +64,6 @@ export const projects = [
         demoLink: "https://react-to-do-application.netlify.app/",
         repoLink: "https://github.com/philosophy-flow/to-do-app",
     },
-    // {
-    //   name: "Custom Pricing Component",
-    //   img: pricingCompImg,
-    //   description:
-    //     "An interactive pricing component that features a customized range bar and toggle button by utilizing CSS pseudo selectors. Functional programming concepts are used to manage state based on the slider bar value and whether or not a discount is applied.",
-    //   demoLink:
-    //     "https://philosophy-flow.github.io/interactive-pricing-component/",
-    //   repoLink:
-    //     "https://github.com/philosophy-flow/interactive-pricing-component",
-    // },
     {
         name: "Crowdfunding Product Page",
         img: crowdfundingProduct,
@@ -97,36 +74,4 @@ export const projects = [
         repoLink:
             "https://github.com/philosophy-flow/crowdfunding-product-page",
     },
-    // {
-    //   name: "FelineFinder",
-    //   img: felineFinderImg,
-    //   description:
-    //     "A landing page for an application that specializes in finding friends for your cat. The page is responsive and demonstrates the power of Bootstrap, including the grid system and the carousel feature.",
-    //   demoLink: "https://philosophy-flow.github.io/felinefinder/",
-    //   repoLink: "https://github.com/philosophy-flow/felinefinder",
-    // },
-    // {
-    //   name: '"Meet" Landing Page',
-    //   img: meetLandingPage,
-    //   description:
-    //     "A mobile first, fully responsive landing page for an app named Meet. Two breakpoints were created to strategically compliment the content, and a small amount of JavaScript was used to implement a simple scroll button and download modal. Care was taken to ensure that smooth scrolling and CSS transitions were applied across devices to maximize UX.",
-    //   demoLink: "https://philosophy-flow.github.io/meet-landing-page/",
-    //   repoLink: "https://github.com/philosophy-flow/meet-landing-page",
-    // },
-    // {
-    //   name: '"Pod" Landing Page',
-    //   img: podLandingPage,
-    //   description:
-    //     "A mobile first, fully responsive landing page for an app named Pod. Multiple breakpoints were created to strategically compliment the content, and special attention was paid to tablet displays. A small amount of JavaScript was utilized to create custom email validation for the form.",
-    //   demoLink: "https://philosophy-flow.github.io/pod-request-landing-page/",
-    //   repoLink: "https://github.com/philosophy-flow/pod-request-landing-page",
-    // },
-    // {
-    //   name: "Product Landing Page",
-    //   img: typemasterLandingPage,
-    //   description:
-    //     "A mobile first, fully responsive landing page for a product. Breakpoints were created to strategically compliment the content, and a combination of negative margins and absolute positioning techniques were utilized to position certain elements.",
-    //   demoLink: "https://philosophy-flow.github.io/typemaster-landing-page/",
-    //   repoLink: "https://github.com/philosophy-flow/typemaster-landing-page",
-    // }
 ];
