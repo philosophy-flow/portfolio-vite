@@ -28,20 +28,31 @@ export default function About() {
                 <div className="about-text-container">
                     <h2 className="about-header">A Bit About Me</h2>
                     <p className="about-body">
-                        As an accomplished software engineer and leader, I
-                        thrive on tackling complex challenges, constantly
-                        expanding my knowledge, and sharing what I know with
-                        others. With a proven track record of effective
-                        collaboration and exemplary self-teaching capabilities,
-                        I excel at working in both team environments and
-                        independently.
+                        As a web engineer with a background in physics,
+                        hospitality, and computer science, I've spent the past
+                        several years of my varied career building modern
+                        applications from the ground up. I embrace an ownership
+                        mentality when it comes to codebases and features I'm
+                        responsible for, and being a team leader and mentor is
+                        something I naturally gravitate towards.
+                    </p>
+                    <p className="about-body">
+                        Currently, I work as the sole in-house web engineer at
+                        Ace Hotel Group, where I lead everything from content
+                        delivery to new feature development. I've guided
+                        external teams, reallocated agency contracts toward more
+                        impactful work, and shipped mission-critical features to
+                        production. Previously, my work at Capgemini exposed me
+                        to enterprise-level application development and taught
+                        me the importance of automated testing when looking to
+                        scale.
                     </p>
                     <p className="about-body">
                         When I'm not building something at work, I'm usually
                         building something at home. If I'm not doing that, then
-                        you might find me grinding Leetcode, enjoying a long
-                        walk with my dog, or just trying to avoid screens in the
-                        general sense (don't ask me how it's going).
+                        you might find me enjoying a long walk with my dog or
+                        just trying to avoid screens in the general sense (don't
+                        ask me how it's going).
                     </p>
                     <div className="about-button-container">
                         <a

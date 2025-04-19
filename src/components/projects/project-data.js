@@ -1,4 +1,3 @@
-import crowdfundingProduct from "../../assets/project-images/crowdfunding-product-img.png";
 import invoiceApp from "../../assets/project-images/invoice-app-img.png";
 import planetaryFacts from "../../assets/project-images/planetary-facts.png";
 import quizApp from "../../assets/project-images/quiz-app-img.png";
@@ -6,6 +5,7 @@ import todoList from "../../assets/project-images/to-do-app-img.png";
 import jobFilter from "../../assets/project-images/job-filter-img.png";
 import fakeNewsFlush from "../../assets/project-images/fake-news-flush-img.png";
 import habitsior from "../../assets/project-images/habitsior-img.png";
+import cloudBase from "../../assets/project-images/cloud-base-img.png";
 
 export const projects = [
     {
@@ -15,6 +15,13 @@ export const projects = [
             "Habitsior is a full-stack app for tracking personal habits over time, built to showcase a modern tech stack and thoughtful feature design. The frontend is developed with React/Vite, TypeScript, Tailwind CSS, and Redux Toolkit Query; the backend is powered by FastAPI, SQLModel, and PostgreSQL. Core features include user authentication with email verification and JWT-based sessions, habit management, and daily progress tracking. Links to the live app, API docs, and supporting assets are also available via the README file on either repository.",
         demoLink: "https://habitsior.app",
         repoLink: "https://github.com/philosophy-flow/habit-tracker-backend",
+    },
+    {
+        name: "Cloud Base",
+        img: cloudBase,
+        description:
+            "Cloud Base is my self-hosted cloud infrastructure powered by AWS Lightsail, where I leverage Docker Compose to orchestrate a robust nginx reverse-proxy. This setup dynamically routes traffic across multiple domains, efficiently managing requests to isolated Docker containers running diverse applications — each with independent deployments and lifecycles. It's my personal, fully containerized cloud environment optimized for rapid development, continuous deployment, and minimal downtime.",
+        repoLink: "https://github.com/philosophy-flow/cloud-base",
     },
     {
         name: "Fake News Flush",
@@ -63,15 +70,5 @@ export const projects = [
             "A React to-do list application that features the ability to categorize items based upon whether or not they have been completed; furthermore, items can be deleted individually, and all completed items can be deleted at once. The application also features a light/dark theme selector, and data is persisted via the browser's local storage.",
         demoLink: "https://react-to-do-application.netlify.app/",
         repoLink: "https://github.com/philosophy-flow/to-do-app",
-    },
-    {
-        name: "Crowdfunding Product Page",
-        img: crowdfundingProduct,
-        description:
-            "An interactive crowdfunding product sign up page built with vanilla JavaScript. The user is able to select a reward type or simply back the project. After making a selection, a modal appears that then allows the user to specify a donation amount. The total amount raised, the number of backers, the number of reward items, and the progress bar are updated accordingly.",
-        demoLink:
-            "https://philosophy-flow.github.io/crowdfunding-product-page/",
-        repoLink:
-            "https://github.com/philosophy-flow/crowdfunding-product-page",
     },
 ];
