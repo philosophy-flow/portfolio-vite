@@ -1,8 +1,6 @@
 import invoiceApp from "../../assets/project-images/invoice-app-img.png";
-import planetaryFacts from "../../assets/project-images/planetary-facts.png";
 import quizApp from "../../assets/project-images/quiz-app-img.png";
 import todoList from "../../assets/project-images/to-do-app-img.png";
-import jobFilter from "../../assets/project-images/job-filter-img.png";
 import fakeNewsFlush from "../../assets/project-images/fake-news-flush-img.png";
 import habitsior from "../../assets/project-images/habitsior-img.png";
 import cloudBase from "../../assets/project-images/cloud-base-img.png";
@@ -12,7 +10,7 @@ export const projects = [
         name: "Habitsior",
         img: habitsior,
         description:
-            "Habitsior is a full-stack app for tracking personal habits over time, built to showcase a modern tech stack and thoughtful feature design. The frontend is developed with React/Vite, TypeScript, Tailwind CSS, and Redux Toolkit Query; the backend is powered by FastAPI, SQLModel, and PostgreSQL. Core features include user authentication with email verification and JWT-based sessions, habit management, and daily progress tracking. Links to the live app, API docs, and supporting assets are also available via the README file on either repository.",
+            "A full-stack app for tracking personal habits over time, built to showcase a modern tech stack and thoughtful feature design. The frontend is developed with React/Vite, TypeScript, Tailwind CSS, and Redux Toolkit Query; the backend is powered by FastAPI, SQLModel, and PostgreSQL. Core features include user authentication with email verification and JWT-based sessions, habit management, and daily progress tracking. Links to the live app, API docs, and supporting assets are also available via the README file on either repository.",
         demoLink: "https://habitsior.app",
         repoLink: "https://github.com/philosophy-flow/habit-tracker-backend",
     },
@@ -20,7 +18,7 @@ export const projects = [
         name: "Cloud Base",
         img: cloudBase,
         description:
-            "Cloud Base is my self-hosted cloud infrastructure powered by AWS Lightsail, where I leverage Docker Compose to orchestrate a robust nginx reverse-proxy. This setup dynamically routes traffic across multiple domains, efficiently managing requests to isolated Docker containers running diverse applications — each with independent deployments and lifecycles. It's my personal, fully containerized cloud environment optimized for rapid development, continuous deployment, and minimal downtime.",
+            "My self-hosted cloud infrastructure powered by AWS Lightsail, where I leverage Docker Compose to orchestrate a robust nginx reverse-proxy. This setup dynamically routes traffic across multiple domains, efficiently managing requests to isolated Docker containers running diverse applications — each with independent deployments and lifecycles. It's my personal, fully containerized cloud environment optimized for rapid development, continuous deployment, and minimal downtime.",
         repoLink: "https://github.com/philosophy-flow/cloud-base",
     },
     {
@@ -32,42 +30,26 @@ export const projects = [
         repoLink: "https://github.com/philosophy-flow/capstone-backend",
     },
     {
-        name: "Invoice Application",
+        name: "BillCraft",
         img: invoiceApp,
         description:
-            "A mobile first, fully responsive React application that features a complex form built with formik/yup. Additionally, this project integrates the React Datepicker and React Select libraries in order to provide a more robust and customized experience. A user is able to create, modify, and delete invoices that feature many different properties. Tailwind is used for almost all custom CSS, including animations and responsive breakpoints.",
+            "A mobile-first invoicing platform built with React / Tailwind and optimized for speed, usability, and flexibility. Complex form handling ensures robust validation, while custom date pickers and select menus create a streamlined, branded UX. Users can generate, edit, and delete invoices featuring detailed line items, payment terms, and status tracking. Fully responsive layouts, custom animations, and clean state management round out this lightweight but capable application.",
         demoLink: "https://invoice-application.vercel.app/invoices",
         repoLink: "https://github.com/philosophy-flow/invoice-application",
     },
     {
-        name: "Planetary Facts",
-        img: planetaryFacts,
-        description:
-            "A mobile first, fully responsive React application that provides information pertaining to the planets of the Solar System. Each planet page features key information at the bottom and three separate tabs that include additional information/images.",
-        demoLink: "https://planetary-factz.netlify.app/Earth",
-        repoLink: "https://github.com/philosophy-flow/planets-fact-app",
-    },
-    {
-        name: "Job Listing Filter",
-        img: jobFilter,
-        description:
-            "A React application that displays a list of job opportunities, allowing the user to select multiple filter criteria. The user is also able to remove individual filters or clear all selected filters. A complex implementation of the filter array method is utilized to compare initial listing data to the filter object.",
-        demoLink: "https://react-job-filter-app.netlify.app/",
-        repoLink: "https://github.com/philosophy-flow/react-job-filter",
-    },
-    {
-        name: "Pick a Quiz",
+        name: "QuizPick",
         img: quizApp,
         description:
-            "A React application that allows the user to select from multiple categories and then take a trivia quiz. After answering all questions the user is able to see their score and view all of the missed questions and correct answers. Animations were done via Framer Motion, and quiz data was retrieved from Open Trivia DB.",
+            "A lightweight quiz application built with React, offering users a dynamic experience across multiple trivia categories. Smooth page transitions and animations are powered by Framer Motion, while real-time quiz data is pulled from Open Trivia DB. After completing the quiz, users can view their final score, review missed questions, and learn the correct answers. Designed for fast loading, clear feedback, and an engaging user experience across devices.",
         demoLink: "https://pickaquiz.netlify.app/",
         repoLink: "https://github.com/philosophy-flow/pick-a-quiz",
     },
     {
-        name: "To Do List w/ Theme Selector",
+        name: "Daily Docket",
         img: todoList,
         description:
-            "A React to-do list application that features the ability to categorize items based upon whether or not they have been completed; furthermore, items can be deleted individually, and all completed items can be deleted at once. The application also features a light/dark theme selector, and data is persisted via the browser's local storage.",
+            "The essential developer rite of passage — a to-do list, but with a twist. This React application features categorized task management, with the ability to delete items individually or clear all completed tasks in one click. A built-in light/dark theme selector adds a personalized touch, and all task data is persisted using browser local storage for seamless usability. Lightweight, responsive, and fully self-contained — because you can never have too many to-do lists.",
         demoLink: "https://react-to-do-application.netlify.app/",
         repoLink: "https://github.com/philosophy-flow/to-do-app",
     },
