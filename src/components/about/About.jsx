@@ -32,19 +32,18 @@ export default function About() {
                         hospitality, and computer science, I've spent the past
                         several years of my varied career building modern
                         applications from the ground up. I embrace an ownership
-                        mentality when it comes to codebases and features I'm
-                        responsible for, and being a team leader and mentor is
-                        something I naturally gravitate towards.
+                        mentality when it comes to codebases I'm responsible
+                        for, and being a team leader and mentor is something I
+                        naturally gravitate towards.
                     </p>
                     <p className="about-body">
                         Currently, I work as the sole in-house web engineer at
-                        Ace Hotel Group, where I lead everything from content
-                        delivery to new feature development. I've guided
-                        external teams, reallocated agency contracts toward more
-                        impactful work, and shipped mission-critical features to
-                        production. Previously, my work at Capgemini exposed me
-                        to enterprise-level application development and taught
-                        me the importance of automated testing when looking to
+                        Ace Hotel Group, where I've guided external teams,
+                        reallocated agency contracts toward more impactful work,
+                        shipped mission-critical features to production, and
+                        more. Previously, my work at Capgemini exposed me to
+                        enterprise-level application development and taught me
+                        the importance of automated testing when looking to
                         scale.
                     </p>
                     <p className="about-body">
@@ -57,7 +56,7 @@ export default function About() {
                     <div className="about-button-container">
                         <a
                             className="about-nav-link"
-                            href="https://jacob-stewart-resume.tiiny.site"
+                            href="https://basepraxmatic.net/jacob-stewart-resume.pdf"
                             target="_blank"
                             rel="noreferrer"
                         >
