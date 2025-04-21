@@ -42,6 +42,12 @@
   font-weight: bold;
 }
 
+.about-border {
+  width: 1px;
+  margin: 4rem;
+  height: 30vh;
+  border: 1px solid var(--btn-color);
+}
 
 /* BUTTONS */
 .about-nav-link {
@@ -59,20 +65,6 @@
   cursor: pointer;
 }
 
-.about-nav-link:hover {
-  background-color: #4A7A97;
-  color: var(--home-bg-color);
-  transition: .25s;
-}
-
-/* BORDER */
-.about-border {
-  width: 1px;
-  margin: 4rem;
-  height: 30vh;
-  border: 1px solid var(--btn-color);
-}
-
 .about-icon {
   margin-right: 1rem;
   fill:#4A7A97;
@@ -82,14 +74,17 @@
   vertical-align: middle;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .about-nav-link:hover {
+    background-color: #4A7A97;
+    color: var(--home-bg-color);
+    transition: .25s;
+  }
 
-/* no hover on mobile */
-@media only screen and (min-width: 500px) {
   .about-icon:hover {
     fill: #5A8EAD;
   }
 }
-
 
 /* portrait view */
 @media only screen and (max-width: 650px) {

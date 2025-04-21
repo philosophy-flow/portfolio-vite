@@ -74,18 +74,9 @@
   border: 1px solid #8A5E8A;
 }
 
-.project-link:hover {
-  background-color: #8A5E8A;
-  transition: .25s;
-  color: var(--home-bg-color);
-}
-
-
-/* SCROLL BUTTON */
 .scroll-button {
   position: fixed;
   right: 1rem;
-  /* transform: translateX(-50%); */
   bottom: 1rem;
   z-index: 1;
   cursor: pointer;
@@ -93,8 +84,6 @@
   padding: .5rem;
   outline: none;
   border: none;
-  /* background-color: rgba(141, 142, 143, 0.21);
-  background-color: rgba(83, 156, 190, 0.5); */
   background-color: #F4AE7C;
   color: #000
 }
@@ -102,20 +91,23 @@
 .scroll-button svg {
   width: 28px;
   height: 28px;
+  padding-top: .25rem;
 }
 
 
-/* no hover on mobile */
-@media only screen and (min-width: 500px) {
+@media (hover: hover) and (pointer: fine) {
+  .project-link:hover {
+    background-color: #8A5E8A;
+    transition: .25s;
+    color: var(--home-bg-color);
+  }
+
   .scroll-button:hover {
     transition: color .25s ease-out, background-color .25s;
     background-color: var(--home-bg-color);
     outline: 2px solid #F4AE7C;
   }
 }
-
-
-
 
 /* portrait view */
 @media only screen and (max-width: 650px) {

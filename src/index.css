@@ -48,6 +48,7 @@ html {
   font-family: var(--sub-font);
   background-color: var(--home-bg-color);
 
+  scrollbar-gutter: stable;
 }
 
 
