@@ -100,6 +100,18 @@ export default function About() {
                         { src: pupStairs, alt: "dapper dog on the stairs" },
                         { src: pupHat, alt: "dapper dog in a hat" },
                     ]}
+                    styles={{
+                        container: {
+                            background: "#e5eaedbf",
+                        },
+                        button: {
+                            filter: "none",
+                        },
+                        icon: {
+                            backgroundColor: "#000",
+                            boxShadow: "none",
+                        },
+                    }}
                 />
             </motion.section>
         </>
