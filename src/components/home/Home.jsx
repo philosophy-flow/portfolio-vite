@@ -35,7 +35,7 @@ export default function Home() {
                         />
                         <span style={{ fontSize: "inherit" }}>
                             {" "}
-                            an NYC based software developer.
+                            an NYC based software engineer.
                         </span>
                     </h1>
                 </div>

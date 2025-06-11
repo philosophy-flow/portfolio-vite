@@ -31,20 +31,25 @@ export default function About() {
                         As a web engineer with a background in physics,
                         hospitality, and computer science, I've spent the past
                         several years of my varied career building modern
-                        applications from the ground up. I embrace an ownership
-                        mentality when it comes to codebases I'm responsible
-                        for, and being a team leader and mentor is something I
-                        naturally gravitate towards.
+                        applications and delivering software solutions that
+                        solve complex business problems. I embrace an ownership
+                        mentality when it comes to the code I write, taking
+                        pride in creating maintainable, scalable systems while
+                        naturally gravitating toward team leadership and
+                        mentorship roles.
                     </p>
                     <p className="about-body">
-                        Currently, I work as the sole in-house web engineer at
-                        Ace Hotel Group, where I've guided external teams,
-                        reallocated agency contracts toward more impactful work,
-                        shipped mission-critical features to production, and
-                        more. Previously, my work at Capgemini exposed me to
-                        enterprise-level application development and taught me
-                        the importance of automated testing when looking to
-                        scale.
+                        Currently, I'm the lead engineer at Ace Hotel Group,
+                        where I set technical standards for our 9-site network
+                        infrastructure and maintain 99.9% uptime. I've
+                        spearheaded complex deployments for new hotel launches,
+                        led platform migrations that save thousands annually,
+                        and guided external teams toward more impactful work. My
+                        foundation in enterprise development comes from
+                        Capgemini, where I participated in the modernization of
+                        an insurance acquisition experience with React and Redux
+                        while mentoring junior developers and consistently
+                        exceeding expectations.
                     </p>
                     <p className="about-body">
                         When I'm not building something at work, I'm usually
