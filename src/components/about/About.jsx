@@ -61,7 +61,7 @@ export default function About() {
                     <div className="about-button-container">
                         <a
                             className="about-nav-link"
-                            href="https://basepraxmatic.net/jacob-stewart-resume.pdf"
+                            href="https://basepraxmatic.net/jacob-stewart-resume.pdf?7"
                             target="_blank"
                             rel="noreferrer"
                         >
